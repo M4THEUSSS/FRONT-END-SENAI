@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+header,footer{
+    width: 100%;
+    padding: 20px   0px;
+    background-color: #072E33;
+    color: antiquewhite;
+    /* Aqui podemos distanciar (machado) e o (catalogo) */
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+align-items: center;
+flex-direction: column;
+
+}
+/* Esse comando muda a altera o (catalogo) */
+header a{
+ text-decoration: none;
+ color: antiquewhite;
+}
+/* Barra do meio  */
+main{
+    width: 90%;
+    box-shadow: 5px 5px 5px rgb(168, 155, 127);
+    margin: 10px auto;
+    padding: 5px;
+}
+h2,h4{
+    text-align: center;
+    color: rgba(168, 155, 127);
+}
+
+#Novidades ul{
+    background-color: #072E33;
+    color: antiquewhite;
+    margin: 15px auto;
+    /* width =  Controla a Largura da borda */
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap = distancia os Lirvros  */
+    gap: 70px;
+}
+
+#Populares ol{
+    background-color: #072E33;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.Livros{
+    width: 200px;
+    padding: 20px;
+    background-color: #072E33;
+    color: antiquewhite;
+    margin: 10px;
+    flex-direction: column;
+}
+
+/* display flex =  coloca os icons e texto ao lado  */
+footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+}
+footer li{
+   
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: beige;
+
+}
+
+
+
