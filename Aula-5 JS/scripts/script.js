@@ -14,7 +14,7 @@ function teste() {
 }
  
 function repeticao(){
-    alert
+    
 //enquanto(condição) faca fimEnquanto
     let contador = 0
     while(contador <=10){
@@ -27,12 +27,19 @@ function lista(){
     //var arrayComen = array()
     //arrayComen[0] = "info"
 
-    var livros = [true,"string",100,[]]
-    console.log(livros[2])
+     
+    var livros = [true, "string", 100, []]
 
-    var listaProduto = ['manga','livros','revista','jornal']
-    console.log(livros[2])
-    listaProduto
+    var listaProdutos = ['Documentos Cientificos', 'Mangá', 'Livros', 'Revistas', 'Apostilas']
 
-   
+    console.log(listaProdutos)
+
+    listaProdutos.forEach(produto => {
+        document.getElementById("resposta3").innerHTML += `
+            <div class="elementos">
+                ${produto}
+            </div>
+
+        `
+    });
 }
